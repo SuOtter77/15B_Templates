@@ -23,5 +23,5 @@ int main() {
 	cout << half(a) << endl;
 	cout << half(b) << endl;
 	cout << half(c) << endl;
-	
+	// btw, you can't round with a template function. it would end up returning an int for a double. You get the point. The type coercion from V is enough, even if it cuts it down to 1 instead of 2 from 1.75. That's ok, we're not rocket scientists here.
 }
